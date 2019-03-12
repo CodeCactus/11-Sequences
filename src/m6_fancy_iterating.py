@@ -470,7 +470,7 @@ def print_items_that_are_bigger_than_5(seq):
     Precondition: All the items in the sequence are integers.
     """
     # -------------------------------------------------------------------------
-    # TODO: 7. Implement and test this function.
+    # DONE: 7. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
     for k in range(len(seq)):
@@ -494,7 +494,7 @@ def print_items_that_are_strings(seq):
       bone is at index 4
     """
     # -------------------------------------------------------------------------
-    # TODO: 8. Implement and test this function.
+    # DONE: 8. Implement and test this function.
     #
     # IMPORTANT:
     #   -- A string is, by definition, an object whose type is   str.
@@ -507,7 +507,7 @@ def print_items_that_are_strings(seq):
     #        Note that   str   has NO quotes surrounding it.
     # -------------------------------------------------------------------------
     for k in range(len(seq)):
-        if seq[k] is str:
+        if isinstance(seq[k],str):
             print(seq[k],'is at index',k)
 
 ###############################################################################
